@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/results-summary-component-main/design/active-states.jpg)
+![](/design/active-states.jpg)
 ![](/results-summary-component-main/design/desktop-design.jpg)
 ![](/results-summary-component-main/design/desktop-preview.jpg)
 ![](/results-summary-component-main/design/mobile-design.jpg)
