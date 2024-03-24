@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Results Summary</title>
+</head>
+<body>
+  <div class="main">
+    <div class="left">
+      <h4>Your result</h4>
+      <div class="circle">
+        <h1 id="average">79</h1>
+        <p>of 100</p>
+      </div>
+      <h3 id="grade">Great</h3>
+      <p class="text">
+        You scored higher than 65% of<br> the people who have taken<br> these tests.
+      </p>
+    </div>
+    <div class="right">
+      <h3>Summary</h3>
+      <div class="items">
+        <div class="memory block">
+          <div class="n name1">
+            <img srcset="/results-summary-component-main/assets/images/icon-memory.svg" src="/results-summary-component-main/assets/images/icon-memory.svg" alt="/results-summary-component-main/assets/images/icon-memory.svg">
+            <h5>Memory</h5>
+          </div>
+          <div class="m marks1">
+            <p id="memory">0</p>
+            <p class="from">/100<p>
+          </div>
+        </div>
+        <div class="reaction block">
+          <div class="n name2">
+            <img srcset="/results-summary-component-main/assets/images/icon-reaction.svg" src="/results-summary-component-main/assets/images/icon-reaction.svg" alt="/results-summary-component-main/assets/images/icon-reaction.svg">
+            <h5>Reaction</h5>
+          </div>
+          <div class="m marks2">
+            <p id="reaction">0</p>
+            <p class="from">/100</p>
+          </div>
+        </div>
+        <div class="verbal block">
+          <div class="n name3">
+            <img srcset="" src="/results-summary-component-main/assets/images/icon-verbal.svg" alt="">
+            <h5>Verbal</h5>
+          </div>
+          <div class="m">
+            <p id="verbal">0</p>
+            <p class="from">/100</p>
+          </div>
+        </div>
+        <div class="visual block">
+          <div class="n">
+            <img src="/results-summary-component-main/assets/images/icon-visual.svg" alt="">
+            <h5>Visual</h5>
+          </div>
+          <div class="m">
+            <p id="visual">0</p>
+            <p class="from">/100</p>
+          </div>
+        </div>
+      </div>
+      <button id="button"type="submit">
+      Continue
+      </button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
